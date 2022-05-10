@@ -1,0 +1,34 @@
+sever:
+  port: 8081
+spring:
+  datasource:
+    diver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/vue_test_demo?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: qwer1234
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+
+#  mvc:
+#    static-path-pattern: /static/**
+
+#mybatis?????
+  mybatis:
+  #mapper????
+    mapper-location: classpath:mapper/*.xml
+  #type-aliases-package: com.geng.demo.mybatis.entity
+
+
+#
+#spring:
+#  redis:
+#    host: 127.0.0.1
+#    port: 6379
+#    database: 0
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/book_manage
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: qwer1234
